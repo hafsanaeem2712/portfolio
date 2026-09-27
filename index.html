@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hafsa Naeem | Portfolio</title>
+  
+  <!-- Modern Inter Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-brand">Hafsa Naeem</a>
+      
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-item">Home</a>
+        <a href="#about" class="nav-item">About</a>
+        <a href="#skills" class="nav-item">Skills</a>
+        <a href="#projects" class="nav-item">Projects</a>
+        <a href="#contact" class="nav-item">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Home / Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="container hero-container">
+        
+        <!-- Circular User Icon Frame -->
+        <div class="profile-avatar-wrapper">
+          <div class="profile-avatar">
+            <svg class="avatar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </div>
+        </div>
+
+        <!-- Name Below Picture -->
+        <h1 class="hero-name">Hafsa Naeem</h1>
+        <p class="hero-title">Software Engineer &amp; Computer Science Undergraduate</p>
+        <p class="hero-bio">
+          Crafting responsive, performant, and accessible web experiences with clean code and modern standards.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-heading">About Me</h2>
+        <div class="content-box">
+          <p>
+            I am a Computer Science student passionate about software engineering, building modular applications, and web development. My background in mathematics strengthens my problem-solving approach to writing structured, maintainable code.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-heading">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Frontend Development</h3>
+            <ul>
+              <li>HTML5 (Semantic)</li>
+              <li>CSS3 (Flexbox, Grid, Variables)</li>
+              <li>JavaScript (ES6+)</li>
+              <li>Responsive Web Design</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Tools &amp; Workflow</h3>
+            <ul>
+              <li>Git &amp; GitHub</li>
+              <li>VS Code</li>
+              <li>Vite &amp; Modern Tooling</li>
+              <li>LocalStorage APIs</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Computer Science</h3>
+            <ul>
+              <li>Data Structures</li>
+              <li>Algorithm Design</li>
+              <li>Object-Oriented Programming</li>
+              <li>Analytical Problem Solving</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-heading">Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <h3>Task Management App</h3>
+            <p>A full CRUD To-Do web application featuring local storage persistence, responsive UI, and state management.</p>
+            <div class="tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>AyeChat Platform</h3>
+            <p>Real-time communication design and application layout featuring custom CSS design tokens and component structures.</p>
+            <div class="tags">
+              <span>React</span>
+              <span>CSS Modules</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container text-center">
+        <h2 class="section-heading">Contact</h2>
+        <p class="contact-desc">Interested in collaborating or have any questions? Reach out anytime!</p>
+        <a href="mailto:hafsanaeem@example.com" class="btn btn-primary">Say Hello</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Hafsa Naeem. All rights reserved.</p>
+  </footer>
+
+  <script type="module" src="./script.js"></script>
+</body>
+</html>
